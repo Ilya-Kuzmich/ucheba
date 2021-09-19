@@ -2,10 +2,10 @@ const fs = require('fs-extra')
 fs.emptyDir('nomer1')
 fs.emptyDir('nomer2')
 .then(() => {
-console.log('dvepapki!')
+console.log('dve papki!')
   fs.writeFile('D:/u4eba/112/nomer1/file1.txt', 'glhf')
   .then(() => {
-  console.log('file!')
+  console.log('file#1!')
 fs.copyFile('D:/u4eba/112/nomer1/file1.txt','D:/u4eba/112/nomer2/file1.txt')
   .then(() => {
     console.log('copy!')  
