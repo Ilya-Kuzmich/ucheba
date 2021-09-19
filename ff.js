@@ -2,7 +2,7 @@ const fs = require('fs-extra')
 fs.emptyDir('nomer1')
 fs.emptyDir('nomer2')
 .then(() => {
-console.log('papki!')
+console.log('dvepapki!')
   fs.writeFile('D:/u4eba/112/nomer1/file1.txt', 'glhf')
   .then(() => {
   console.log('file!')
