@@ -159,3 +159,77 @@
 // (3487 и 3794 ---> 1 и 2 ) 
 // - сортировка массива по возрастанию/убыванию
 // - удалить из массива все повторяющиеся элементы
+////////////////////////////////////////////////////////////////////////\
+// const Calculator = require('./calculator')
+
+// const calc = new Calculator();
+// calc.sum(5,6);
+
+// function foo(timeout, callback) {
+//     setTimeout(() => {
+//         console.log('foo callback');
+//         callback ();
+//     },timeout);
+// }
+// foo(1000,()=> console.log('11'))
+
+
+// function bar(timeout, text, callback) {
+//     setTimeout(() => {
+//         console.log(text);
+//         text +='mir '
+//         callback (text);
+//     },timeout);
+// }
+// foo(1000,()=> {
+//     bar (2000, 'privet', ()=> console.log('finish'))
+// })
+// function baze(text) {
+//     setTimeout(() => console.log(text), 500)
+
+//  }
+//  foo (1000, ()=>{
+//      bar(2000, 'privert' , baze);
+ 
+//  })
+// function day(){
+// console.log("начало работы ", new Date().toLocaleString() );
+// setTimeout(()=>console.log('obed',new Date().toLocaleString()),4000);
+// setTimeout(()=> console.log('konets dn9 ',new Date().toLocaleString()),5000);
+// }
+// day()
+
+// function otschet(i){
+// setInterval(() => {
+//     console.log(i++)
+// }, 1000);
+// }
+// otschet(1)
+
+
+// function foo(timeout, callback) {
+//         setTimeout(() => {
+//             console.log('hello');
+//             callback ();
+//         },timeout);
+//     }
+//     foo(1000,()=> console.log())
+    
+    
+//     function bar(timeout, text, callback) {
+//         setTimeout(() => {
+//             console.log(text);
+//             text +='mir '
+//             callback (text);
+//         },timeout);
+//     }
+//     foo(1000,()=> {
+//         bar (2000, 'privet', ()=> console.log('finish'))
+//     })
+//     function baze(text) {
+//         setTimeout(() => console.log(text), 500)
+    
+//      }
+//      foo (1000, ()=>{
+//          bar(2000, 'privert' , baze);
+//      })
