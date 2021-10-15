@@ -69,6 +69,6 @@ function deleteFile(file2) {
 function deleteFolders(momer1, nomer2) {
     fs.remove(momer1);
     fs.remove(nomer2);
-    console.log('papki removed');
+    console.log('papki removed')
 }
 papka1(nomer1);
