@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 const Trip = require('./trip/Trip');
 const food = require('./food/food');
 const Transport = require('./transport/Transport');
@@ -5,7 +7,7 @@ const train = require('./transport/train');
 const car = require('./transport/car');
 const TripBuilder = require('./trip/TripBuilder');
 const plane = require('./transport/plane');
-const prompt = require('prompt-sync')();
+
 
 let foods=[
     new food(true, 1, true, 100),
