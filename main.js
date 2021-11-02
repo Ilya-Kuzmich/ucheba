@@ -233,3 +233,60 @@
 //      foo (1000, ()=>{
 //          bar(2000, 'privert' , baze);
 //      })
+
+
+// lesson 12
+///////////////////////////////////////////////////////
+// class calculator{
+//     constructor(result){
+//         this.result=result;
+//     }
+//     plus(a){
+//         this.result=this.result+a;
+//     return this
+//     }
+
+//     multiple(a){
+//         this.result=this.result*a;
+//         return this
+//     }
+//     minus(a){
+//         this.result=this.result-a;
+//         return this
+//     }
+//     release(){
+//         return this.result
+//     }
+// }
+
+// let calk= new calculator(0);
+// calk.plus(7)
+// calk.multiple(4)
+// calk.minus(2)
+
+// console.log(calk)
+//////////////////////////////
+// class Process{
+//     constructor(type){
+//         this.type=type
+//     }
+//     getType(){
+//         return this.type
+//     }
+// }
+
+// class Singleton{
+//     process;
+
+//     getProcess(type){
+//         if (!this.process){
+//             this.process=new process(type)
+//         }
+//         return this.process;
+//     }
+// }
+
+// let singleton = new Singleton()
+
+// console.log(Singleton.getProcess('first').getType())
+///////////////////////////////////
