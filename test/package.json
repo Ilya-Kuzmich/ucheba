@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node spec/runner"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.10.0"
+  }
+}
